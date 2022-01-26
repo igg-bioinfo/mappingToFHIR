@@ -1,0 +1,75 @@
+{
+  "resourceType": "Patient",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/ig/pcsp/StructureDefinition/Patient-eu-pcsp"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+      "valueAddress": {
+        "city": "BARLETTA"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "jdbc:oracle:thin",
+      "value": "XXXXXXXX"
+    }
+  ],
+  "name": [
+    {
+      "family": "XXXXXXXX",
+      "given": [
+        "XXXXXXXX",
+        "XXXXXXXX"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "XXXXXXXX",
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+              "code": "PRN",
+              "display": "parent"
+            }
+          ]
+        }
+      ],
+      "telecom": [
+        {
+          "system": "email",
+          "value": "XXXXXXXX"
+        },
+        {
+          "system": "phone",
+          "value": "XXXXXXXX"
+        }
+      ]
+    },
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+            }
+          ]
+        }
+      ],
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "XXXXXXXX"
+        }
+      ]
+    }
+  ]
+}
